@@ -8,12 +8,7 @@ function Header() {
           <Link to='/'>React</Link>
         </li>
         <ul id="nav-mobile" className="right hide-on-med-and-down">
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-          <li>
-            <Link to="/contact">Contact</Link>
-          </li>
+          <li><a href="/">Repo</a></li>
         </ul>
       </div>
     </nav>
