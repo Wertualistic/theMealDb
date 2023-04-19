@@ -5,11 +5,9 @@ function Header() {
     <nav>
       <div className="nav-wrapper">
         <li className="brand-logo">
-          <Link to='/'>React</Link>
+          <Link to="/">React</Link>
+          <Link to="/categories">Categories</Link>
         </li>
-        <ul id="nav-mobile" className="right hide-on-med-and-down">
-          <Link to='/categories'>Categories</Link>
-        </ul>
       </div>
     </nav>
   );

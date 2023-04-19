@@ -18,7 +18,17 @@ nav {
 .card-content {
   flex-grow: 1;
 }
+
 img {
   max-width: 100%;
   margin-top: 1rem;
+}
+
+.input-field{
+  display: flex;
+}
+
+.brand-logo{
+  display: flex !important;
+  gap: 50px;
 }
