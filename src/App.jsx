@@ -7,16 +7,20 @@ import About from './Pages/About';
 import NotFound from './Pages/NotFound';
 import Category from './Pages/Category';
 import Recipe from './Pages/Recipe';
+import Search from './components/Search';
+import Categories from './Pages/Categories';
 
 function App() {
   return (
     <>
       <Header />
+      <Search />
       <main className='container content'>
         <Routes>
           <Route exact path='/' element={ <Home /> }/>
           <Route path='/about' element={ <About /> }/>
           <Route path='/contact' element={ <Contact /> }/>
+          <Route path='/categories' element={ <Categories />  } />
           <Route path='/category/:name' element={ <Category /> } />
           <Route path='/meal/:id' element={ <Recipe /> } />
           <Route path='*' element={<NotFound />}/>
